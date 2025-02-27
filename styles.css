@@ -1,6 +1,27 @@
 html{
-    font-family: serif;
-    background: rgb(253, 254, 246);
+    font-family: 'overpass', sans-serif;
+    background: black;
     margin: 0;
+    color: white;
 }
 
+.flexbox-grid{
+    display: flex;
+    gap: 40px; 
+    margin: 20px;
+    color: #072603;
+    background-color:#fff9f5;
+  }
+  
+  .column-1{
+
+    padding: 0px 20px;
+    flex: 1;
+  }
+
+  .flexbox-grid{
+    animation: fadeInLeft;
+    animation-duration: 3s;
+
+    
+}
