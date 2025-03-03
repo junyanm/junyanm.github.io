@@ -15,13 +15,35 @@ html{
   
   .column-1{
 
-    padding: 0px 20px;
-    flex: 1;
+    padding: 200px 350px;
+    flex: 2;
+    background-color:black;
+    animation:slideInDown;
+    animation-duration: 3s;
   }
-
+    h1{
+      color:white;
+      font-size:600%;
+    }
+    
   .flexbox-grid{
     animation: fadeInLeft;
     animation-duration: 3s;
+    
+.arrow-button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
 
+.arrow-button::after {
+        content: ' ➔';
+    }
     
 }
