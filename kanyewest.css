@@ -1,0 +1,36 @@
+
+
+
+
+
+
+
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: 'Optima', sans-serif;
+        background:black;
+    }
+    
+    .flexbox-container {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url('https://static01.nyt.com/images/2024/09/15/world/15china-kanye/15china-kanye-superJumbo.jpg?quality=75&auto=webp');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+        text-align: center;
+    }
+    
+    .flexbox-container h1 {
+        font-size: 10rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        animation: fadeInDown;
+        animation-duration:3s;
+    }
