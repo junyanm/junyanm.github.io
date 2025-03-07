@@ -34,3 +34,22 @@
         animation: fadeInDown;
         animation-duration:3s;
     }
+
+    .flexbox-grid{
+        display: flex;
+        gap: 40px; 
+        margin: 0px;
+        color: #ffffff;
+        background-color:#000000;
+      }
+
+    .column-4{
+
+        justify-content: center;
+        align-items: center;
+
+       
+
+    }
+
+
