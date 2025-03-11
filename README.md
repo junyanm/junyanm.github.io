@@ -11,5 +11,7 @@ My personal site.
 - [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - center content and create structure to the site
 
 
-https://codepen.io/Unleashed-Design/pen/JVWKZE
-Used for homepage title
+
+
+https://codepen.io/frankeno/pen/QWmmxQb
+used for homepage title.
